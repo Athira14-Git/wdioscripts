@@ -1,0 +1,113 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1660926447647' stop='1660926453150'>
+    <name>Setmore Service Add</name>
+    <title>Setmore Service Add</title>
+    <test-cases>
+        <test-case start='1660926447647' status='broken' stop='1660926453150'>
+            <name>Adding service in setmore</name>
+            <title>Adding service in setmore</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.81'/>
+            </parameters>
+            <steps>
+                <step start='1660926447720' status='passed' stop='1660926449817'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='cf868317-38dd-40e0-b2a7-bf8bfd297333-attachment.json' type='application/json' size='48'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1660926449817' status='passed' stop='1660926449941'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='703d418c-8bfd-482e-a032-925dfb4e7609-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1660926449943' status='passed' stop='1660926449976'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='8a41d4fb-c880-4f40-97d2-0777897e98be-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='7c182c71-0c85-406f-a65c-262be843d010-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1660926449983' status='passed' stop='1660926450029'>
+                    <name>POST /session/:sessionId/element/686c68e5-8d0f-4804-8744-813f47515c9a/clear</name>
+                    <title>POST /session/:sessionId/element/686c68e5-8d0f-4804-8744-813f47515c9a/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1660926450035' status='passed' stop='1660926450094'>
+                    <name>POST /session/:sessionId/element/686c68e5-8d0f-4804-8744-813f47515c9a/value</name>
+                    <title>POST /session/:sessionId/element/686c68e5-8d0f-4804-8744-813f47515c9a/value</title>
+                    <attachments>
+                        <attachment title='Request' source='b894d68e-dcea-480f-8009-35ba03377136-attachment.json' type='application/json' size='42'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1660926450094' status='passed' stop='1660926450113'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='e058633c-9f7e-4b16-823c-b3671ed26925-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='68533775-5d37-4426-8710-628bdc05db02-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1660926450117' status='passed' stop='1660926450146'>
+                    <name>POST /session/:sessionId/element/15bdb7d1-9717-4ce7-acc2-572f438428a2/clear</name>
+                    <title>POST /session/:sessionId/element/15bdb7d1-9717-4ce7-acc2-572f438428a2/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1660926450147' status='passed' stop='1660926450176'>
+                    <name>POST /session/:sessionId/element/15bdb7d1-9717-4ce7-acc2-572f438428a2/value</name>
+                    <title>POST /session/:sessionId/element/15bdb7d1-9717-4ce7-acc2-572f438428a2/value</title>
+                    <attachments>
+                        <attachment title='Request' source='abd5156a-7262-4a3b-ac3e-7cf400197f11-attachment.json' type='application/json' size='27'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1660926450176' status='passed' stop='1660926450189'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='45f4e824-e662-4fe5-bb95-d1af23785bd9-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='dfd5797b-5bdf-41c1-99c7-ce69205addd4-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1660926450190' status='passed' stop='1660926453026'>
+                    <name>POST /session/:sessionId/element/38107dce-f6f5-4cb2-8869-f34b26ee150b/click</name>
+                    <title>POST /session/:sessionId/element/38107dce-f6f5-4cb2-8869-f34b26ee150b/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1660926453027' status='passed' stop='1660926453149'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='52da48e3-bcb6-48e5-862e-20c62c2f7b1a-attachment.png' type='image/png' size='13193'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>staffname is not defined</message>
+                <stack-trace>ReferenceError: staffname is not defined
+                    at Context.&lt;anonymous> (C:\Users\LENOVO\Desktop\Wdio_Scripts\test\specs\Setmore_staff.js:9:34)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

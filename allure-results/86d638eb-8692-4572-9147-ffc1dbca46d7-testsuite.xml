@@ -1,0 +1,113 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1660965090025' stop='1660965103489'>
+    <name>Setmore Add Service</name>
+    <title>Setmore Add Service</title>
+    <test-cases>
+        <test-case start='1660965090026' status='broken' stop='1660965103487'>
+            <name>Adding service in setmore</name>
+            <title>Adding service in setmore</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.82'/>
+            </parameters>
+            <steps>
+                <step start='1660965090135' status='passed' stop='1660965091821'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='189a49a2-9c80-4bdd-ac4e-551ba7c84f1a-attachment.json' type='application/json' size='48'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1660965091821' status='passed' stop='1660965091967'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='d878c8de-82f4-4aea-b0cb-cbfa0305dcda-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1660965091975' status='passed' stop='1660965092027'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='10f4c55a-3fcb-4344-8738-4987de1aaa00-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='43774fe3-4772-4577-a6c1-dc89f5689f32-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1660965092038' status='passed' stop='1660965092106'>
+                    <name>POST /session/:sessionId/element/9609f8f1-9b33-4b60-85b7-90caf1ff97dc/clear</name>
+                    <title>POST /session/:sessionId/element/9609f8f1-9b33-4b60-85b7-90caf1ff97dc/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1660965092117' status='passed' stop='1660965092210'>
+                    <name>POST /session/:sessionId/element/9609f8f1-9b33-4b60-85b7-90caf1ff97dc/value</name>
+                    <title>POST /session/:sessionId/element/9609f8f1-9b33-4b60-85b7-90caf1ff97dc/value</title>
+                    <attachments>
+                        <attachment title='Request' source='724370d4-50cd-4d95-a9a6-607df169f56a-attachment.json' type='application/json' size='42'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1660965092211' status='passed' stop='1660965092234'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='6a83bcbc-227b-443c-9103-3e8624df7ef8-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='c43cc632-3d46-4f58-aa0b-29883f5b9298-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1660965092238' status='passed' stop='1660965092279'>
+                    <name>POST /session/:sessionId/element/b81fbab4-d6ea-43d8-b464-44476603658b/clear</name>
+                    <title>POST /session/:sessionId/element/b81fbab4-d6ea-43d8-b464-44476603658b/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1660965092279' status='passed' stop='1660965092352'>
+                    <name>POST /session/:sessionId/element/b81fbab4-d6ea-43d8-b464-44476603658b/value</name>
+                    <title>POST /session/:sessionId/element/b81fbab4-d6ea-43d8-b464-44476603658b/value</title>
+                    <attachments>
+                        <attachment title='Request' source='da3759d9-f2ba-4bd5-a2e4-c417c74733e1-attachment.json' type='application/json' size='27'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1660965092353' status='passed' stop='1660965092376'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='954b2fc1-e656-440a-becd-024b110b5d91-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='a1766cc9-83b0-404c-848d-4131d98a3766-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1660965092379' status='passed' stop='1660965096402'>
+                    <name>POST /session/:sessionId/element/c007c258-d4ec-46b9-ba3d-67b4fb825af2/click</name>
+                    <title>POST /session/:sessionId/element/c007c258-d4ec-46b9-ba3d-67b4fb825af2/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1660965101411' status='passed' stop='1660965103484'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='925dcdf3-9f9c-4ab8-a36f-1d80e84bc574-attachment.png' type='image/png' size='9833'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>this.settings_tab.click is not a function</message>
+                <stack-trace>TypeError: this.settings_tab.click is not a function
+                    at ServicePage.createservice (C:\Users\LENOVO\Desktop\Wdio_Scripts\test\pageobjects\Setmore_service.page.js:54:33)
+                    at Context.&lt;anonymous> (C:\Users\LENOVO\Desktop\Wdio_Scripts\test\specs\Setmore_service.js:10:27)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

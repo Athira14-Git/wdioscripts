@@ -1,0 +1,98 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1660925292734' stop='1660925352764'>
+    <name>Setmore Service Delete</name>
+    <title>Setmore Service Delete</title>
+    <test-cases>
+        <test-case start='1660925292734' status='broken' stop='1660925352764'>
+            <name>Deleting service in setmore</name>
+            <title>Deleting service in setmore</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.81'/>
+            </parameters>
+            <steps>
+                <step start='1660925292737' status='passed' stop='1660925294020'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='4b074410-e749-4df6-8efe-1df9a0bda89d-attachment.json' type='application/json' size='48'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1660925294020' status='passed' stop='1660925294030'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='63e24472-7e4f-4765-b6ef-502f9632cd47-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1660925294030' status='passed' stop='1660925294051'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='4c52fb0e-ed77-422b-9ca5-91cd190a4931-attachment.json' type='application/json' size='58'/>
+                        <attachment title='Response' source='9a19f5eb-7b42-4e6d-9346-ce541b3e8f2a-attachment.json' type='application/json' size='1008'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1660925294056' status='passed' stop='1660925294078'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='57f26abc-9578-4692-9993-d07e71de233c-attachment.json' type='application/json' size='58'/>
+                        <attachment title='Response' source='512f468f-f94a-48d1-b2a4-0991ed744b6d-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1660925294559' status='passed' stop='1660925294573'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='2b31f2be-dad6-4683-9dea-4e6dd186bb55-attachment.json' type='application/json' size='58'/>
+                        <attachment title='Response' source='d15d340f-5eae-42f9-b9a2-7876ffdbce3f-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1660925295061' status='passed' stop='1660925295081'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='2748364d-89cf-4c28-92cc-3813e65fe0a5-attachment.json' type='application/json' size='58'/>
+                        <attachment title='Response' source='abbe84dd-3951-4d63-8472-013efa354f9e-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1660925295560' status='broken' stop='1660925352764'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='ccbd005a-6677-4ab9-8795-8dfebb89f230-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps>
+                        <step start='1660925304070' status='broken' stop='1660925352764'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Timeout of 60000ms exceeded. The execution in the test "Setmore Service Delete Deleting service in setmore" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\LENOVO\Desktop\Wdio_Scripts\test\specs\Setmore_staff.js)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. The execution in the test "Setmore Service Delete Deleting service in setmore" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\LENOVO\Desktop\Wdio_Scripts\test\specs\Setmore_staff.js)
+                    at createTimeoutError (C:\Users\LENOVO\Desktop\Wdio_Scripts\node_modules\mocha\lib\errors.js:498:15)
+                    at Test.Runnable._timeoutError (C:\Users\LENOVO\Desktop\Wdio_Scripts\node_modules\mocha\lib\runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (C:\Users\LENOVO\Desktop\Wdio_Scripts\node_modules\mocha\lib\runnable.js:246:24)
+                    at listOnTimeout (node:internal/timers:559:17)
+                    at processTimers (node:internal/timers:502:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
