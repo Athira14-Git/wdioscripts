@@ -1,0 +1,57 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663310858237' stop='1663310890822'>
+    <name>Setmore Application Login</name>
+    <title>Setmore Application Login</title>
+    <test-cases>
+        <test-case start='1663310858238' status='broken' stop='1663310890820'>
+            <name>User should login to setmore with valid credentials</name>
+            <title>User should login to setmore with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps>
+                <step start='1663310858336' status='passed' stop='1663310860470'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='abe9283b-5d4d-4cab-9f67-c27b6f45a1b5-attachment.json' type='application/json' size='48'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663310860470' status='passed' stop='1663310860647'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='00fddbc2-60c4-4b0b-8047-846b1fdab8c5-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663310890654' status='passed' stop='1663310890818'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='4980a400-53e6-4630-a7b7-9758b9b15254-attachment.png' type='image/png' size='47214'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>waitUntil condition failed with the following reason: Cannot read properties of undefined (reading 'isDisplayed')</message>
+                <stack-trace>Error: waitUntil condition failed with the following reason: Cannot read properties of undefined (reading 'isDisplayed')
+                    at C:\Users\LENOVO\Desktop\Wdio_Scripts\node_modules\webdriverio\build\commands\browser\waitUntil.js:70:15
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at runNextTicks (node:internal/process/task_queues:65:3)
+                    at processTimers (node:internal/timers:499:9)
+                    at async Browser.wrapCommandFn (C:\Users\LENOVO\Desktop\Wdio_Scripts\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async LoginPage.login (C:\Users\LENOVO\Desktop\Wdio_Scripts\test\pageobjects\Setmore_login.page.js:17:9)
+                    at async Context.&lt;anonymous> (C:\Users\LENOVO\Desktop\Wdio_Scripts\test\specs\Setmore_login.js:8:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

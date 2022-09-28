@@ -1,0 +1,42 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1664261152075' stop='1664261212092'>
+    <name>Setmore Delete Staff</name>
+    <title>Setmore Delete Staff</title>
+    <test-cases>
+        <test-case start='1664261152075' status='broken' stop='1664261212092'>
+            <name>Deleting staff in setmore</name>
+            <title>Deleting staff in setmore</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps>
+                <step start='1664261152077' status='passed' stop='1664261158840'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='ae40c50f-33e5-40f0-b325-4d69145f6226-attachment.json' type='application/json' size='48'/>
+                        <attachment title='Response' source='61988faa-ce48-4238-abd7-6b3bd6ed6271-attachment.json' type='application/json' size='1009'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='220696c6-9409-4389-bc8d-6bb6aaca2fa5-attachment.png' type='image/png' size='30730'/>
+            </attachments>
+            <failure>
+                <message>Timeout of 60000ms exceeded. The execution in the test "Setmore Delete Staff Deleting staff in setmore" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\LENOVO\Desktop\Wdio_Scripts\test\specs\Setmore_staff.js)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. The execution in the test "Setmore Delete Staff Deleting staff in setmore" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\LENOVO\Desktop\Wdio_Scripts\test\specs\Setmore_staff.js)
+                    at createTimeoutError (C:\Users\LENOVO\Desktop\Wdio_Scripts\node_modules\mocha\lib\errors.js:498:15)
+                    at Test.Runnable._timeoutError (C:\Users\LENOVO\Desktop\Wdio_Scripts\node_modules\mocha\lib\runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (C:\Users\LENOVO\Desktop\Wdio_Scripts\node_modules\mocha\lib\runnable.js:246:24)
+                    at listOnTimeout (node:internal/timers:559:17)
+                    at processTimers (node:internal/timers:502:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

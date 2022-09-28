@@ -1,7 +1,6 @@
-const Page = require('./page');
 
 
-class StaffPage extends Page {
+class StaffPage  {
     get Settings()
     {
       return $ ('.settings-icon');
@@ -11,6 +10,7 @@ class StaffPage extends Page {
     {
         return $('//*[@id="settingsSideNav"]/ul/li[2]/a');
     }
+    
 
     get Plus_icon()
      {
@@ -43,7 +43,11 @@ class StaffPage extends Page {
      }
     
     async AddStaff(staffname,staffeid)
-        {
+         {
+            await browser.waitUntil(async () => { return await this.Settings.isDisplayed() === true }, {
+               timeout: 30000,
+               timeoutMsg: 'Element not displayed'
+           })
         await this.Settings.click();
         await this.Staff_button.click();
         await this.Plus_icon.click();
@@ -55,15 +59,16 @@ class StaffPage extends Page {
 
     async DeleteStaff() 
         {
+         await browser.waitUntil(async () => { return await this.Settings.isDisplayed() === true }, {
+            timeout: 30000,
+            timeoutMsg: 'Settings Not displayed'
+        })
         await this.Settings.click();
         await this.Staff_button.click();
         await this.Delete_button.click();
         await this.Delete_confirmbutton.click();
         } 
-        open () 
-        {
-         return super.open('AddStaff');
-        }
+        
 
         }
         module.exports = new StaffPage();

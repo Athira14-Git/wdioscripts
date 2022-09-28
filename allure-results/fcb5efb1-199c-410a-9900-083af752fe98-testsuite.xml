@@ -1,0 +1,106 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1664287154608' stop='1664287160335'>
+    <name>DectivateCash</name>
+    <title>DectivateCash</title>
+    <test-cases>
+        <test-case start='1664287154609' status='broken' stop='1664287160334'>
+            <name>should Deactivate Cash</name>
+            <title>should Deactivate Cash</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps>
+                <step start='1664287154615' status='passed' stop='1664287155994'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='1d56d476-099d-4a80-a451-ee638044816b-attachment.json' type='application/json' size='48'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664287155996' status='passed' stop='1664287156022'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='08e6626b-e848-4364-a43b-01259c55be92-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='5f7418fa-b3c1-477f-8d45-ae83edc57011-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664287156029' status='passed' stop='1664287156095'>
+                    <name>POST /session/:sessionId/element/c52a9ee5-1605-4c0a-9e4a-b47555f60da6/clear</name>
+                    <title>POST /session/:sessionId/element/c52a9ee5-1605-4c0a-9e4a-b47555f60da6/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1664287156105' status='passed' stop='1664287156221'>
+                    <name>POST /session/:sessionId/element/c52a9ee5-1605-4c0a-9e4a-b47555f60da6/value</name>
+                    <title>POST /session/:sessionId/element/c52a9ee5-1605-4c0a-9e4a-b47555f60da6/value</title>
+                    <attachments>
+                        <attachment title='Request' source='bcdf0355-2152-42fa-ba67-92c4bff07402-attachment.json' type='application/json' size='42'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664287156222' status='passed' stop='1664287156253'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='49788072-a0c1-45da-a6bb-2719971da7d2-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='d2ed5c73-2bb9-4532-ad91-a9149c622ae0-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664287156259' status='passed' stop='1664287156313'>
+                    <name>POST /session/:sessionId/element/9d4e7792-ae49-4feb-93ef-eea27ac5e7b2/clear</name>
+                    <title>POST /session/:sessionId/element/9d4e7792-ae49-4feb-93ef-eea27ac5e7b2/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1664287156314' status='passed' stop='1664287156392'>
+                    <name>POST /session/:sessionId/element/9d4e7792-ae49-4feb-93ef-eea27ac5e7b2/value</name>
+                    <title>POST /session/:sessionId/element/9d4e7792-ae49-4feb-93ef-eea27ac5e7b2/value</title>
+                    <attachments>
+                        <attachment title='Request' source='2bd1d1d1-6955-4b4f-8e84-7842500855bf-attachment.json' type='application/json' size='27'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664287156392' status='passed' stop='1664287156419'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='1b54a0e9-0d3a-4564-a12c-2d426f5cb4c4-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='4a268d42-6932-4b48-ad37-169ac603b691-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664287156423' status='passed' stop='1664287160158'>
+                    <name>POST /session/:sessionId/element/af9e4469-77e7-4146-8215-71ea76fe7953/click</name>
+                    <title>POST /session/:sessionId/element/af9e4469-77e7-4146-8215-71ea76fe7953/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1664287160159' status='passed' stop='1664287160332'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='202ae67f-411f-428c-91a4-062dbf1745e1-attachment.png' type='image/png' size='10528'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>browser.waitForExist is not a function</message>
+                <stack-trace>TypeError: browser.waitForExist is not a function
+                    at CashPage.DeactivateCash (C:\Users\LENOVO\Desktop\Wdio_Scripts\test\pageobjects\Setmore_cash.page.js:45:23)
+                    at Context.&lt;anonymous> (C:\Users\LENOVO\Desktop\Wdio_Scripts\test\specs\Setmore_cash.js:21:25)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

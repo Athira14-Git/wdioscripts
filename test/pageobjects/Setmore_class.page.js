@@ -1,6 +1,6 @@
-const Page = require('./page');
 
-class ClassPage extends Page {
+
+class ClassPage{
     
 
     get settings_btn()
@@ -18,6 +18,7 @@ class ClassPage extends Page {
     }
      
     get class_name()
+    
     {
         return $('#class_title');
     }
@@ -42,6 +43,11 @@ class ClassPage extends Page {
     }
 
     async addclass(clsname,clsdes,clscst,clstime) {
+        await browser.waitUntil(async () => { return await this.settings_btn.isDisplayed() === true }, {
+            timeout: 30000,
+            timeoutMsg: 'Setting Not displayed'
+        })
+    
         await this.settings_btn.click();
         await this.class_button.click();
         await this.addclass_btn.click();
@@ -49,15 +55,11 @@ class ClassPage extends Page {
         await this.class_description.setValue(clsdes);
         await this.class_cost.setValue(clscst);
         await this.class_duration.setValue(clstime);
-        await this.class_slot.setValue();
+        await this.class_slot.setValue(10);
         await this.addclass_button.waitForClickable();
         await this.addclass_button.click();
         }
-
     
-     open () {
-        return super.open('addclass');
-    }
 }
 
 module.exports = new ClassPage();

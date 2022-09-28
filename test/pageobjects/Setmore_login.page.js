@@ -1,7 +1,4 @@
-const Page = require('./page');
-
-
-class LoginPage extends Page {
+class LoginPage {
     
     get inputUsername () {
         return $('#username');
@@ -17,14 +14,13 @@ class LoginPage extends Page {
 
     
     async login (username, password) {
+        
         await this.inputUsername.setValue(username);
         await this.inputPassword.setValue(password);
         await this.SubmitButton.click();
     }
 
-    open () {
-        return super.open('login');
-    }
+    
 }
 
 module.exports = new LoginPage();

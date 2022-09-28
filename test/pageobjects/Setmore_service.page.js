@@ -1,8 +1,5 @@
 
-const Page = require('./page');
-
-
-class ServicePage extends Page {
+class ServicePage  {
     get settings_btn()
     {
         return $('.settings-icon');
@@ -51,6 +48,10 @@ class ServicePage extends Page {
 
     async createservice(servicename,servicedescription,servicecost,servicetime) {
         
+        await browser.waitUntil(async () => { return await this.settings_btn.isDisplayed() === true }, {
+            timeout: 30000,
+            timeoutMsg: 'Settings Not displayed'
+        })
         await this.settings_btn.click();
         await this.service_button.click();
         await this.add_newservice.click();
@@ -65,11 +66,9 @@ class ServicePage extends Page {
         await this.addservice.waitForClickable();
         await this.addservice.click();
         }
-
-    
-     open () {
-        return super.open('createservice');
-    }
+        
 }
+
+
 
 module.exports = new ServicePage();

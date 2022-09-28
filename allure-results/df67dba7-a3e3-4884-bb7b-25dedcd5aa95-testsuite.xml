@@ -1,0 +1,108 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1664279609695' stop='1664279669709'>
+    <name>Setmore Add Staff</name>
+    <title>Setmore Add Staff</title>
+    <test-cases>
+        <test-case start='1664279609695' status='broken' stop='1664279669708'>
+            <name>Adding staff in setmore</name>
+            <title>Adding staff in setmore</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps>
+                <step start='1664279609697' status='passed' stop='1664279611289'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='b04d6bfd-c2d1-4f3f-9fe4-8f8e0ebbc1ff-attachment.json' type='application/json' size='48'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664279611289' status='passed' stop='1664279611431'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='a768d00c-e6cd-45e2-85ae-6e8c9a595fbd-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664279611435' status='passed' stop='1664279611488'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='99853367-e950-4197-95fd-5687826ee546-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='8f287617-b44e-40c2-9a62-1c30da681483-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664279611503' status='passed' stop='1664279611569'>
+                    <name>POST /session/:sessionId/element/3d89cb2e-b19e-4ec1-a866-a9da5eda1d04/clear</name>
+                    <title>POST /session/:sessionId/element/3d89cb2e-b19e-4ec1-a866-a9da5eda1d04/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1664279611579' status='passed' stop='1664279611714'>
+                    <name>POST /session/:sessionId/element/3d89cb2e-b19e-4ec1-a866-a9da5eda1d04/value</name>
+                    <title>POST /session/:sessionId/element/3d89cb2e-b19e-4ec1-a866-a9da5eda1d04/value</title>
+                    <attachments>
+                        <attachment title='Request' source='505773da-9ef2-4f57-9c92-6b0a7a8d2acf-attachment.json' type='application/json' size='42'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664279611715' status='passed' stop='1664279611738'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='854cbaf7-d0e6-42dc-a245-36191bb00dc1-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='ca550d0e-1446-4c4e-be7d-47b7a25002ba-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664279611741' status='passed' stop='1664279611777'>
+                    <name>POST /session/:sessionId/element/2071ce04-7184-4268-ad86-3ddafdcccf58/clear</name>
+                    <title>POST /session/:sessionId/element/2071ce04-7184-4268-ad86-3ddafdcccf58/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1664279611778' status='passed' stop='1664279611841'>
+                    <name>POST /session/:sessionId/element/2071ce04-7184-4268-ad86-3ddafdcccf58/value</name>
+                    <title>POST /session/:sessionId/element/2071ce04-7184-4268-ad86-3ddafdcccf58/value</title>
+                    <attachments>
+                        <attachment title='Request' source='3cfad80a-6da7-4a5b-b444-de4da46103d2-attachment.json' type='application/json' size='27'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664279611841' status='passed' stop='1664279611865'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='fa9e5360-12a8-4e9e-8d3e-3710f0ec9a79-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='83e25478-5941-41b8-9542-46b9d7c97dde-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664279611870' status='broken' stop='1664279669708'>
+                    <name>POST /session/:sessionId/element/5a32176f-5357-44fc-9f55-74ebe2dd92c3/click</name>
+                    <title>POST /session/:sessionId/element/5a32176f-5357-44fc-9f55-74ebe2dd92c3/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Timeout of 60000ms exceeded. The execution in the test "Setmore Add Staff Adding staff in setmore" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\LENOVO\Desktop\Wdio_Scripts\test\specs\Setmore_staff.js)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. The execution in the test "Setmore Add Staff Adding staff in setmore" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\LENOVO\Desktop\Wdio_Scripts\test\specs\Setmore_staff.js)
+                    at createTimeoutError (C:\Users\LENOVO\Desktop\Wdio_Scripts\node_modules\mocha\lib\errors.js:498:15)
+                    at Test.Runnable._timeoutError (C:\Users\LENOVO\Desktop\Wdio_Scripts\node_modules\mocha\lib\runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (C:\Users\LENOVO\Desktop\Wdio_Scripts\node_modules\mocha\lib\runnable.js:246:24)
+                    at listOnTimeout (node:internal/timers:559:17)
+                    at processTimers (node:internal/timers:502:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

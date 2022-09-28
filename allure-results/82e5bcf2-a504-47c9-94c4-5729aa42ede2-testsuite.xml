@@ -1,0 +1,106 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1664013944182' stop='1664014004198'>
+    <name>Activatecash</name>
+    <title>Activatecash</title>
+    <test-cases>
+        <test-case start='1664013944183' status='broken' stop='1664014004197'>
+            <name>Activate cash register</name>
+            <title>Activate cash register</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps>
+                <step start='1664013944191' status='passed' stop='1664013959013'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='c7d52f12-411e-4e4b-8e03-ae9c7793e957-attachment.json' type='application/json' size='48'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664013959014' status='passed' stop='1664013959039'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='57800ab6-20ba-4cd0-a546-43a437a9c322-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='4a96700d-5135-4948-9de3-adf66c9e54da-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664013959046' status='passed' stop='1664013959090'>
+                    <name>POST /session/:sessionId/element/002a4e96-3dea-4493-92df-c7b53fac0e95/clear</name>
+                    <title>POST /session/:sessionId/element/002a4e96-3dea-4493-92df-c7b53fac0e95/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1664013959096' status='passed' stop='1664013959336'>
+                    <name>POST /session/:sessionId/element/002a4e96-3dea-4493-92df-c7b53fac0e95/value</name>
+                    <title>POST /session/:sessionId/element/002a4e96-3dea-4493-92df-c7b53fac0e95/value</title>
+                    <attachments>
+                        <attachment title='Request' source='1845fde8-f0b3-4e1a-8792-02bf32920144-attachment.json' type='application/json' size='42'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664013959337' status='passed' stop='1664013959411'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='616b903f-4c82-4f21-96ff-f32f55b745a9-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='f67760b1-6818-46ae-9887-55ada63756cd-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664013959421' status='passed' stop='1664013959504'>
+                    <name>POST /session/:sessionId/element/1f7d1d33-8915-4688-bcb8-3dc2ab1595b2/clear</name>
+                    <title>POST /session/:sessionId/element/1f7d1d33-8915-4688-bcb8-3dc2ab1595b2/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1664013959507' status='passed' stop='1664013959612'>
+                    <name>POST /session/:sessionId/element/1f7d1d33-8915-4688-bcb8-3dc2ab1595b2/value</name>
+                    <title>POST /session/:sessionId/element/1f7d1d33-8915-4688-bcb8-3dc2ab1595b2/value</title>
+                    <attachments>
+                        <attachment title='Request' source='93a7fc06-d413-47d5-894b-f90ee5b4894c-attachment.json' type='application/json' size='27'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664013959613' status='passed' stop='1664013959640'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='42e1579a-1cbd-4e1a-b771-81d4cdd79f22-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='6d0e7fdb-7da8-4f5a-b422-a798a6bd9776-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1664013959644' status='passed' stop='1664013965257'>
+                    <name>POST /session/:sessionId/element/493c10bc-d133-4605-aba8-515e07b4c73f/click</name>
+                    <title>POST /session/:sessionId/element/493c10bc-d133-4605-aba8-515e07b4c73f/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1664013995259' status='broken' stop='1664014004197'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Timeout of 60000ms exceeded. The execution in the test "Activatecash Activate cash register" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\LENOVO\Desktop\Wdio_Scripts\test\specs\Setmore_cash.js)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. The execution in the test "Activatecash Activate cash register" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\LENOVO\Desktop\Wdio_Scripts\test\specs\Setmore_cash.js)
+                    at createTimeoutError (C:\Users\LENOVO\Desktop\Wdio_Scripts\node_modules\mocha\lib\errors.js:498:15)
+                    at Test.Runnable._timeoutError (C:\Users\LENOVO\Desktop\Wdio_Scripts\node_modules\mocha\lib\runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (C:\Users\LENOVO\Desktop\Wdio_Scripts\node_modules\mocha\lib\runnable.js:246:24)
+                    at listOnTimeout (node:internal/timers:559:17)
+                    at processTimers (node:internal/timers:502:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
